@@ -1,0 +1,54 @@
+#signInButton{
+    border-color: $primaryColorO;
+    background-color: $primaryColorLB;
+    font-weight: bold;
+}
+
+#mainItem{
+    text-align: center;
+    color: $primaryColorB;
+    border-style: solid;
+    border-color: $primaryColorB;
+    border-width: 19px;
+    margin: auto;
+    max-width: 40%;
+    font-size: 8vw;
+    font-weight: bold;
+    font-family: $fontFamilyBarlow;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: $secondaryColorGOp;
+
+    h2{
+        font-size: 8vw;
+    }
+
+    p{
+        font-weight: normal;
+        font-size: 25px;
+        padding: 10px;
+    }
+
+    button{
+        padding: 26px;
+        font-size: 2vw;
+        font-family: $fontFamilyRaleway;
+        font-weight: bold;
+        background-color: $secondaryColorGOp;
+        border-color: $primaryColorO;
+        border-width: 7px;
+        border-radius: 20px;
+        opacity: 1;
+    }
+
+    button:hover{
+        background-color: $primaryColorLB;
+        text-shadow: 1px 1px $primaryColorB;
+        transition-property: background-color;
+        transition-duration: 1s;
+    }
+}
+
+main{
+    flex: 1 0 auto;
+}

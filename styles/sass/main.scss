@@ -1,0 +1,15 @@
+@import "./abstract/variables";
+@import "./abstract/mixins-main";
+
+@import "./layout/header";
+@import "./layout/main-nav";
+@import "./layout/body-main";
+@import "./layout/side-bar";
+@import "./layout/footer";
+
+@import "./pages/about";
+@import "./pages/contacts";
+@import "./pages/home";
+@import "./pages/sign-in-page";
+@import "./pages/towns-main";
+@import "./pages/weather";

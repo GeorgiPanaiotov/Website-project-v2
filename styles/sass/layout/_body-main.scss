@@ -1,0 +1,29 @@
+$imgPath: "../../../img";
+
+
+body
+{
+    background: url(#{$imgPath}/140718-light-blue-wave-background.jpg) no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+h1{
+    font-family: $fontFamilyBarlow;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+main{
+    flex: 1 0 auto;
+    padding-bottom: 200px;
+}
+
+hr{
+    width: 30%;
+}
+

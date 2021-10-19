@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="shotcut icon" type="image/jpg" href="./img/images.png">
+    <link class="theme" rel="stylesheet" href="./styles/css/main.css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <button id="makeDark" onclick="makeDark()">Change Theme</button>
+        <div id="mainTextWithLogo">
+            <a id="logo" href="index.html">The Guider<span>&#x0040B</span></a>
+            <div id="currentDate"></div>
+        </div>
+        <nav>
+            <ul id="mainMenu">
+                <li id="menuItem"><a href="index.html">Home</a></li>
+                <li id="menuItem"><a href="about.html">About</a></li>
+                <li id="menuItem"><a href="contacts.html">Contacts</a></li>
+                <li id="menuItem" class="dropdown">
+                    <a href="#" id="dropdown-item">Towns</a>
+                    <ul class="dropdown-content">
+                        <li><a href="sofia.html">Sofia</a></li>
+                        <li><a href="burgas.html">Burgas</a></li>
+                        <li><a href="plovdiv.html">Plovdiv</a></li>
+                        <li><a href="varna.html">Varna</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <aside class="sidebar">
+        <img id="sidebarLogo" src="./img/the_guider.png" alt="The Guider Logo">
+        <hr style="width: 80%;">
+        <a href="#">Sign In</a>
+        <a href="#">Sign Up</a>
+        <a href="./myprofile.html">My Profile</a>
+        <a href="./weather.html">Weather</a>
+        <hr style="width: 80%;">
+        <section id="currentWeatherSection">
+            <div id="sofiaWeather">
+                <ul class="weatherElements">
+                    <li class="townName"></li>
+                    <li class="countryName"></li>
+                    <li class="currentTemperature"></li>
+                    <li class="relatedPicture"></li>
+                    <li class="currentSituation"></li>
+                </ul>
+            </div>
+            <div id="slivenWeather">
+                <ul class="weatherElements">
+                    <li class="townName"></li>
+                    <li class="countryName"></li>
+                    <li class="currentTemperature"></li>
+                    <li class="relatedPicture"></li>
+                    <li class="currentSituation"></li>
+                </ul>
+            </div>
+            <div id="plovdivWeather">
+                <ul class="weatherElements">
+                    <li class="townName"></li>
+                    <li class="countryName"></li>
+                    <li class="currentTemperature"></li>
+                    <li class="relatedPicture"></li>
+                    <li class="currentSituation"></li>
+                </ul>
+            </div>
+        </section>
+    </aside>
+    <main>
+        <div id="mainItem">
+            <h2>Home</h2>
+            <p>
+                This is a guide for different architectural sightings in Bulgaria!
+            </p>
+            <button onclick="redirectToSignInPage()">Sign In</button>
+        </div>
+    </main>
+    <footer>
+            <span id="leftSide">
+                Work in progress!
+            </span>
+            <span id="rightSide">
+                Georgi Panayotov
+            </span>
+            <h2 id="footerDescription">The best guide for tourists</h2>
+            <div id="copyright">
+                All rights not reserved
+            </div>
+            <section id="icons">
+                <a href="https://github.com/GeorgiPanaiotov" target="_blank"><img src="./img/github_icon.jpg" alt="Github"></a>
+                <a href="https://facebook.com" target="_blank"><img src="./img/facebook_icon.png" alt="Facebook"></a>
+                <a href="https://instagram.com" target="_blank"><img src="./img/instagram_icon.jpg" alt="Instagram"></a>
+                <a href="https://twitter.com" target="_blank"><img src="./img/twitter_icon.png" alt="Twitter"></a>
+            </section>
+    </footer>
+    <script src="./js/darkTheme.js"></script>
+    <script src="./js/weatherAppUpdating.js"></script>
+    <script src="./js/buttonToSignIn.js"></script>
+    <script src="./js/time.js"></script>
+</body>
+</html>

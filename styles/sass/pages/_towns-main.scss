@@ -1,0 +1,39 @@
+#attractions{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+
+.image{
+    padding: 30px;
+}
+
+
+.image-info{
+    display: block;
+    position: relative;
+    padding: 30px;
+    border: $primaryColorB;
+    border-radius: 10px;
+    background-color: $primaryColorLB;
+    border-style: solid;
+    margin-bottom: 10px;
+}
+ 
+.image-description{
+    position: inherit;
+    font-family: $fontFamilyBarlow;
+    float: right;
+    text-align: center;
+}
+
+#read-more-button{
+    display: block;
+    text-align: center;
+    font-family: $fontFamilyBarlow;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+

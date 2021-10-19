@@ -1,0 +1,47 @@
+weatherContainer{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-family: $fontFamilyBarlow;
+    grid-template-rows: 50px;
+    margin-bottom: 250px;
+    margin-top: 20px;
+    background-color: $primaryColorLB;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: $primaryColorO;
+    margin-left: 30vw;
+    margin-right: 30vw;
+}
+
+#cityInfo{
+    font-weight: bold;
+    align-content: center;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+
+#temperature{
+    font-size: 80px;
+}
+
+#searchField{
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 0.5vw 1.2vw 0.5vw 1.2vw;
+    background-color: $secondaryColorGOp;
+    transition: background-color 0.5s;
+
+    :focus{
+        background-color: $secondaryColorWOp;
+    }
+}
+
+#weatherButton{
+    margin: 1vw -0.1vw 1vw -0.1vw;
+    padding: 0.3vw 1.7vw 0.3vw 1.7vw;
+    font-weight: bold;
+    border-color: $primaryColorO;
+    border-radius: 5px;
+    background-color: $secondaryColorW;
+}

@@ -1,0 +1,14 @@
+#infoAboutMe{
+    font-family: $fontFamilyBarlow;
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+
+    div{
+        border-radius: 15px;
+        border-style: solid;
+        background-color: $primaryColorLB;
+        padding: 10px 10px 10px 10px;
+    }
+}

@@ -1,0 +1,51 @@
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    input{
+        margin: 10px 10px 10px 10px;
+        border-radius: 15px;
+        background-color: $secondaryColorW;
+        border-color: $primaryColorO;
+        font-weight: bold;
+        padding: 3px 3px 3px 3px;
+    }
+
+    textarea{
+        margin: 10px 10px 10px 10px;
+        border-radius: 6px;
+        background-color: $secondaryColorW;
+        border-color: $primaryColorO;
+        font-weight: bold;
+        text-align: left;
+        padding: 3px 10px 3px 10px;
+    }
+}
+
+
+.inputContainer{
+    font-family: $fontFamilyBarlow;
+    font-weight: bold;
+    background-color: $primaryColorLB;
+    border-style: solid;
+    border-radius: 10px;
+    display: block;
+    margin-right: 30vw;
+    margin-left: 30vw;
+}
+
+#submitButton{
+    border-color: $primaryColorO;
+    background-color: $primaryColorLB;
+    padding: 5px 5px 5px 5px;
+    font-weight: bold;
+}
+
+#thanksMessage{
+    font-family: $fontFamilyBarlow;
+    font-weight: bold;
+    font-size: 23px;
+    text-align: center;
+}
