@@ -1,0 +1,1 @@
+This is a simple website designed with HTML and SASS, with a touch of Javascript.
